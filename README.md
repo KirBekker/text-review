@@ -1,21 +1,19 @@
-# Text Review
+# Codex Skills for Content and Websites
 
-A Codex skill for reviewing and editing website content against project briefs, factual requirements, SEO guidelines, and brand voice.
+Reusable Codex skills for reviewing website copy, creating AI-assisted project imagery, and shaping website interfaces.
 
-## What it checks
+## Skills
 
-- Specificity, factual support, and usefulness to the reader
-- Repetitive wording, generic claims, and overly predictable structure
-- Fit with the project's brief, SEO requirements, genre, and brand voice
+- [Text Review](SKILL.md) — review and edit site content against a project brief, factual requirements, SEO guidance, and brand voice. It treats stylistic signals as editorial cues, not proof of AI authorship or a way to evade detectors.
+- [AI Image Maker](ai-image-maker/SKILL.md) — plan, generate, edit, and prepare images for a project's brand, page, audience, and publishing requirements.
+- [Website Style](web-style/SKILL.md) — plan, review, or implement a coherent visual style for a website, using the existing brand and technical system.
 
-Stylistic patterns are editorial signals, not proof of authorship. The skill does not promise to evade AI detectors.
+Each skill folder can be installed on its own. Copy the folder into your Codex skills directory, then call it by name, for example `$text-review`, `$ai-image-maker`, or `$web-style`.
 
-## Use
+## References
 
-Copy this repository into your Codex skills directory as `text-review` and invoke it with `$text-review`.
+- [Text review patterns and references](references/patterns-and-sources.md)
+- [AI image making: 110 source references](ai-image-maker/references/sources.md)
+- [Website style: 150 source references](web-style/references/sources.md)
 
-## Files
-
-- `SKILL.md` — skill instructions
-- `agents/openai.yaml` — Codex display metadata
-- `references/patterns-and-sources.md` — source notes and editing guidance
+The source indexes record their audit dates. Check current tool documentation, applicable accessibility standards, and jurisdiction-specific requirements before a commercial release.
