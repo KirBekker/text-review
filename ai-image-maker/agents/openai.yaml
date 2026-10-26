@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Image Maker"
+  short_description: "Create and refine project-ready AI images"
+  default_prompt: "Create or edit an image that follows the project brief, brand rules, and publishing requirements."
